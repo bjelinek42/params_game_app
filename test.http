@@ -1,0 +1,24 @@
+###
+GET http://localhost:3000/name?name=amanda
+
+###
+GET http://localhost:3000/segment_param/colorado_springs/pizza/crackers
+
+###
+GET http://localhost:3000/segment_param/pizza/450
+
+###
+POST http://localhost:3000/guess_number
+content-type: application/json
+
+{
+  "guess": "90"
+}
+
+###
+POST http://localhost:3000/login
+content-type: application/json
+
+{
+  "username": "hugh", "password": "swordfish"
+}
